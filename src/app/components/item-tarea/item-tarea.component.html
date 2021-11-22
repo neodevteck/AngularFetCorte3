@@ -1,0 +1,4 @@
+<div class="tarea">
+    <h3>{{tarea.title}} <fa-icon  [ngStyle]="{color: tarea.completed? 'green': 'red'}" [icon]= "['fas',tarea.completed? 'check-circle': 'exclamation-circle']"  > </fa-icon></h3>
+    <p> {{tarea.completed ? 'Tarea realizada':'Tarea no realizada'}} </p>
+</div>
